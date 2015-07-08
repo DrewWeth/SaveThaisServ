@@ -21,6 +21,11 @@
 	<!-- Tutors -->
 	<talkaction log="yes" access="1" words="!pos" script="position.lua"/>
 
+	
+	<talkaction words="!spells" script="spellbook.lua" />
+
+
+	
 	<!-- Players -->
 	<talkaction words="!buypremium" script="buyprem.lua"/>
 	<talkaction words="!leavehouse" script="leavehouse.lua"/>
