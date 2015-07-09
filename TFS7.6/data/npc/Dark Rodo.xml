@@ -8,4 +8,3 @@
 		<parameter key="message_greet" value="Hello |PLAYERNAME|. Do you want to buy any spell runes, wands, rods?"/>
 	</parameters>
 </npc>
-

@@ -3,8 +3,8 @@
  	<look type="128" head="24" body="77" legs="10" feet="20"/>
 
 	<parameters>
-	<parameter key="module_shop" value="1" />
-	<parameter key="message_greet" value="Hello |PLAYERNAME|. I sell Amulet of Loss!" />
-	<parameter key="shop_buyable" value="amulet of loss,2173,10000" />
+	<parameter key="module_shop" value="1"/>
+	<parameter key="message_greet" value="Hello |PLAYERNAME|. I sell Amulet of Loss!"/>
+	<parameter key="shop_buyable" value="amulet of loss,2173,10000"/>
 	</parameters>
 </npc>
