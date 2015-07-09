@@ -24,7 +24,6 @@ function onSay(cid, words, param, channel)
 		end
 		text = text .. line .. "  " .. spell.words .. " - " .. spell.name .. " : " .. spell.mana .. "\n"
 	end
-	doShowTextDialog(cid, channel, text)
+	doShowTextDialog(cid, 1123, text)
 	return TRUE
 end
-
