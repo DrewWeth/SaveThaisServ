@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<npc name="Dalbrect" script="data/npc/scripts/boat_isle_of_the_kings.lua" walkinterval="2000" floorchange="0">
+<npc name="Dalbrect" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
 <health now="100" max="100"/>
 <look type="129" head="76" body="97" legs="105" feet="76" addons="0"/>
+<parameters>
+  <parameter key="module_travel" value="1"/>
+  <parameter key="message_greet" value="Hello |PLAYERNAME|. I can take you to the Isle of the Kings."/>
+  <parameter key="travel_destinations" value="isle of the kings,32189,31956,6,130;"/>"
+</parameters>
 </npc>

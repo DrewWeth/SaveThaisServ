@@ -1,0 +1,5 @@
+<parameters>
+  <parameter key="module_travel" value="1"/>
+  <parameter key="message_greet" value="Hello |PLAYERNAME|. I can take you to Cormaya or Eremo."/>
+  <parameter key="travel_destinations" value="cormaya,33287,31956,6,0;eremo,33315,31882,7,0"/>"
+</parameters>

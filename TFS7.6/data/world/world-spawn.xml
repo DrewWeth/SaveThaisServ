@@ -2435,8 +2435,8 @@
   <spawn centerx="33027" centery="32763" centerz="6" radius="5">
     <monster name="bat" x="0" y="0" z="6" spawntime="60"/>
   </spawn>
-  <spawn centerx="32523" centery="32784" centerz="6" radius="1">
-    <npc name="Charles" x="0" y="0" z="6" spawntime="60"/>
+  <spawn centerx="32524" centery="32784" centerz="6" radius="1">
+    <npc name="Charles" x="-1" y="0" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="33036" centery="32799" centerz="6" radius="5">
     <monster name="hyaena" x="0" y="0" z="6" spawntime="60"/>

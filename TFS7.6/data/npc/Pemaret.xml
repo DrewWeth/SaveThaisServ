@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<npc name="Pemaret" script="data/npc/scripts/boat_cormaya.lua" walkinterval="2000" floorchange="0">
+<npc name="Pemaret" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
 <health now="100" max="100"/>
 <look type="128" head="79" body="10" legs="127" feet="127" addons="0"/>
-    <parameters>
-        <parameter key="message_greet" value="Greetings, young man. Looking for a passage or some fish, |PLAYERNAME|?"/>
-    </parameters>
+<parameters>
+  <parameter key="module_travel" value="1"/>
+  <parameter key="message_greet" value="Hello |PLAYERNAME|. I can take you to Edron or Eremo."/>
+  <parameter key="travel_destinations" value="edron,33175,31764,6,0;eremo,33315,31882,7,0"/>"
+</parameters>
 </npc>

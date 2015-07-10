@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<npc name="Nielson" script="data/npc/scripts/boat_nordictibia.lua" walkinterval="2000" floorchange="0">
+<npc name="Nielson" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
 <health now="100" max="100"/>
 <look type="129" head="114" body="113" legs="68" feet="67" addons="0"/>
+<parameters>
+  <parameter key="module_travel" value="1"/>
+  <parameter key="message_greet" value="Hello |PLAYERNAME|. I can take you to tibia, senja, vega, or folda"/>
+  <parameter key="travel_destinations" value="tibia,32233,31677,7,0;seja,32124,31667,7,20;vega,32044,31582,7,30;folda,32026,31692,7,20"/>"
+</parameters>
 </npc>
