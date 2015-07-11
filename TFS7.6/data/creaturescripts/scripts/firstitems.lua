@@ -1,7 +1,9 @@
 local firstItems =
 {
 	2050,
-	2512
+	2512,
+	2175,
+	2325
 }
 
 function onLogin(cid)
@@ -27,7 +29,7 @@ function onLogin(cid)
 			doAddContainerItem(bag, 2544, 100)
 		elseif getPlayerVocation(cid) == 4 then
 			doAddContainerItem(bag, 2386, 1)
-			doAddContainerItem(bag, 2398, 1)
+			doAddContainerItem(bag, 2449, 1)
 			doAddContainerItem(bag, 2376, 1)
 		end
 
