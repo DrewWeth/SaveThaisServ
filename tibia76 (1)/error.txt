@@ -17,3 +17,12 @@ assertion: In(PatternX,1,Entry.PatternWidth)
 position:  [32956,32504,7]
 Parameter: 2
 ----------------------------------------
+----------------------------------------
+Debug Assertion
+time:      Fri Jul 10 19:17:37 2015
+line:      215
+module:    Objects
+assertion: In(PatternX,1,Entry.PatternWidth)
+position:  [33229,32435,7]
+Parameter: 3
+----------------------------------------

@@ -5,6 +5,6 @@
 <parameters>
   <parameter key="module_travel" value="1"/>
   <parameter key="message_greet" value="Hello |PLAYERNAME|. I can take you to tibia, senja, vega, or folda"/>
-  <parameter key="travel_destinations" value="tibia,32233,31677,7,0;seja,32124,31667,7,20;vega,32044,31582,7,30;folda,32026,31692,7,20"/>"
+  <parameter key="travel_destinations" value="tibia,32233,31677,7,0;senja,32124,31667,7,20;vega,32044,31582,7,30;folda,32026,31692,7,20"/>"
 </parameters>
 </npc>

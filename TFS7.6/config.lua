@@ -115,8 +115,8 @@
 
 	-- Premium account
 	freePremium = true
-	premiumForPromotion = true
-	removePremiumOnInit = true
+	premiumForPromotion = false
+	removePremiumOnInit = false
 
 	-- Rates
 	rateExp = 35

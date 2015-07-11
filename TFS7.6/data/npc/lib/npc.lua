@@ -32,17 +32,17 @@ end
 
 function getCount(msg)
 	b, e = string.find(msg, "%d+")
-	
+
 	if b == nil or e == nil then
 		count = 1
 	else
 		count = tonumber(string.sub(msg, b, e))
 	end
-	
+
 	if count > 2000 then
 		count = 2000
 	end
-	
+
 	return count
 end
 
@@ -56,7 +56,7 @@ function buy(cid, itemid, count, cost)
 				doPlayerAddItem(cid, itemid, 100)
 				count = count - 100
 			end
-			
+
 			doPlayerAddItem(cid, itemid, count) -- add the last items, if there is left
 		else
 			while count > 0 do
@@ -64,11 +64,11 @@ function buy(cid, itemid, count, cost)
 				count = count - 1
 			end
 		end
-		
+
 		if amount <= 1 then
 			selfSay('Here is your '.. getItemName(itemid) .. '!')
 		else
-			selfSay('Here are your '.. amount ..' '.. getItemName(itemid) .. 's!')		
+			selfSay('Here are your '.. amount ..' '.. getItemName(itemid) .. 's!')
 		end
 	else
 		selfSay('Sorry, you do not have enough money.')
@@ -83,11 +83,11 @@ function buyFluidContainer(cid, itemid, count, cost, fluidtype)
 			doPlayerAddItem(cid, itemid, fluidtype)
 			count = count - 1
 		end
-		
+
 		if amount <= 1 then
 			selfSay('Here is your '.. getItemName(itemid) .. '!')
 		else
-			selfSay('Here are your '.. amount ..' '.. getItemName(itemid) .. 's!')		
+			selfSay('Here are your '.. amount ..' '.. getItemName(itemid) .. 's!')
 		end
 	else
 		selfSay('Sorry, you do not have enough money.')
@@ -104,10 +104,10 @@ function sell(cid, itemid, count, cost)
 			doPlayerAddItem(cid, 2160, 100)
 			coins = coins - 100
 		end
-		
+
 		doPlayerAddItem(cid, 2160, coins)
 		cost = cost - crystals*10000
-		
+
 		coins = math.floor(cost/100)
 		if coins > 0 then
 			doPlayerAddItem(cid, 2152, coins)
@@ -118,15 +118,15 @@ function sell(cid, itemid, count, cost)
 			doPlayerAddItem(cid, 2148, coins)
 			cost = cost - coins
 		end
-		
+
 		if cost > 0 then
 			selfSay('You couldn\'t retrieve '.. cost ..' gold pieces, please contact the admin.')
 		end
-		
+
 		if count <= 1 then
 			selfSay('Thanks for this '.. getItemName(itemid) .. '!')
 		else
-			selfSay('Thanks for these '.. count..' '.. getItemName(itemid) .. 's!')		
+			selfSay('Thanks for these '.. count..' '.. getItemName(itemid) .. 's!')
 		end
 	else
 		selfSay('Sorry, you do not have this item.')

@@ -272,5 +272,4 @@ shopModule:addBuyableItem({'chameleon rune'}, 2291, 210, 1, 'chameleon rune')
 shopModule:addBuyableItem({'desintegrate'}, 2310, 80,  3, 'desintegreate rune')
 shopModule:addBuyableItem({'blank', 'rune'},2260, 10,'blank rune')
 
-
 npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, creatureSayCallback)
