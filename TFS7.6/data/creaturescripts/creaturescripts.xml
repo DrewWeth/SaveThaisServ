@@ -7,6 +7,11 @@
 	<event type="advance" name="FullOnLevel" event="script" value="fullOnLevel.lua"/>
 	<event type="advance" name="Advice" event="script" value="advice.lua"/>
 
+	<event type="advance" name="onadvance_reward" script="onadvance_reward.lua"/>
+	<event type="login" name="onadv_register" script="login.lua"/>
+
+	<event type="advance" name="onadvance_advice" script="onadvance_advice.lua"/>
+	<event type="login" name="onadv_register2" script="login.lua"/>
 
 
 </creaturescripts>

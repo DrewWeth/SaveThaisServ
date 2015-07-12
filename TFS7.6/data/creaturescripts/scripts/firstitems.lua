@@ -32,9 +32,7 @@ function onLogin(cid)
 			doAddContainerItem(bag, 2449, 1)
 			doAddContainerItem(bag, 2376, 1)
 		end
-
-		doAddContainerItem(bad, 2674, 3)
-
+		doAddContainerItem(bag, 2674, 3)
 		setPlayerStorageValue(cid, 30001, 1)
 	end
  	return TRUE
