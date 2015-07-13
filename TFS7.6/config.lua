@@ -42,7 +42,7 @@
 	showHealingDamageForMonsters = false
 
 	-- Connection config
-	ip = "127.0.0.1"
+	ip = "52.10.244.147"
 	port = 7171
 	loginTries = 10
 	retryTimeout = 5 * 1000
